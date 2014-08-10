@@ -1,0 +1,35 @@
+{
+  "name": "Circular",
+  "version": "0.1.0",
+  "description": "A Javascript library that converts checkboxes to stylable elements using CSS!",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IAmKio/Circular"
+  },
+  "keywords": [
+    "checkbox",
+    "custom",
+    "checkbox",
+    "css3",
+    "checkboxes",
+    "custom"
+  ],
+  "author": "IAmKio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IAmKio/Circular/issues"
+  },
+  "homepage": "https://github.com/IAmKio/Circular",
+  "devDependencies": {
+    "gulp": "~3.8.7",
+    "gulp-jshint": "~1.8.4",
+    "gulp-uglify": "~0.3.1"
+  }
+}
