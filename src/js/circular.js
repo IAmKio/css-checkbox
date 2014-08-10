@@ -3,6 +3,7 @@ Circular = function () {};
 
 
 Circular.convert = function(className) {
+    'use strict';
     
     console.log('Circular!');
     
@@ -26,10 +27,11 @@ Circular.convert = function(className) {
 
 
 Circular.transform = function(objs) {
+    'use strict';
     
     if (objs.length > 0) {
         
-        for (i = 0; i < objs.length; i++) { 
+        for (var i = 0; i < objs.length; i++) { 
         
             console.log(objs[i]);
             console.log(objs[i].dataset);
@@ -54,7 +56,8 @@ Circular.transform = function(objs) {
 
 
 Circular.addListener = function(circularId) {
-
+    'use strict';
+    
     var thisIsChecked;
     var thisCircular;
 
@@ -82,7 +85,8 @@ Circular.addListener = function(circularId) {
 
 
 Circular.findCssOff = function(obj) {
-    
+    'use strict';
+        
     if (obj) {
         
         var cssOff = obj.getAttribute('data-css-off');
@@ -104,7 +108,8 @@ Circular.findCssOff = function(obj) {
 
 
 Circular.findCssOn = function(obj) {
-    
+    'use strict';
+        
     if (obj) {
         
         var cssOn = obj.getAttribute('data-css-on');
