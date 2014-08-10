@@ -31,6 +31,7 @@
     "gulp": "~3.8.7",
     "gulp-jshint": "~1.8.4",
     "gulp-uglifyjs": "~0.4.2",
-    "jshint-stylish": "~0.4.0"    
+    "jshint-stylish": "~0.4.0",
+    "gulp-concat-css": "~0.1.4"
   }
 }

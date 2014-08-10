@@ -1,0 +1,119 @@
+.circular-core {
+    
+    height: 20px;
+    width: 20px;    
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;     
+    height: 20px;
+    width: 20px;
+    -o-transition:1s;
+    -ms-transition:1s;
+    -moz-transition:1s;
+    -webkit-transition:1s;
+    transition:1s;	  
+    
+    transform: scale(0.5, 0.5);             
+    -webkit-transform: scale(0.5, 0.5);             
+    
+}
+
+.circular-core input[type=checkbox] {
+    
+    visibility: hidden; 
+    
+}
+
+/*
+* Bootstrap form position correction
+*/
+.checkbox label div.circular-core {
+    
+    position: relative;
+    top: 4px;    
+    
+}
+
+/*
+* Default Styling
+*/
+
+.circular-container {
+    
+
+    background-color: #929292;  
+    
+}
+
+.circular-container-checked {
+    
+    background: #30a313;  
+    
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;	
+    
+    transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    
+}
+
+
+/*
+* Custom styles OMG!
+*/
+
+
+.my-red-color {
+    
+    background-color: #931c1c;
+ 
+    
+}
+
+.my-blue-color { 
+    
+    background-color: #1d58b2;
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;	
+    
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);    
+    
+}
+
+.my-green-square { 
+    
+    background-color: #30a313;
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;	
+    
+    border-radius: 0px;
+    
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);    
+    
+}
+
+.my-image { 
+    
+    background: white;
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;	
+    background-image: url('../../demo/assets/img/fb-like-icon.png');
+    
+    transform: scale(1, 1);  
+    -webkit-transform: scale(1, 1);    
+    
+}

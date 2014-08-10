@@ -1,0 +1,30 @@
+{
+  "name": "Circular",
+  "version": "0.1.0",
+  "homepage": "https://github.com/IAmKio/Circular",
+  "authors": [
+    "Kieran Goodar <kgoodary@gmail.com>"
+  ],
+  "description": "A Javascript library that converts checkboxes to stylable elements using CSS",
+  "main": "['/dist/css/circular.css','/dist/js/circular.js']",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "checkbox",
+    "custom",
+    "checkbox",
+    "javascript",
+    "checkbox",
+    "css",
+    "checkbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
