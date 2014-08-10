@@ -1,4 +1,4 @@
-.circular-core {
+.css-checkbox-core {
     
     height: 20px;
     width: 20px;    
@@ -18,7 +18,7 @@
     
 }
 
-.circular-core input[type=checkbox] {
+.css-checkbox-core input[type=checkbox] {
     
     visibility: hidden; 
     
@@ -27,7 +27,7 @@
 /*
 * Bootstrap form position correction
 */
-.checkbox label div.circular-core {
+.css-checkbox label div.circular-core {
     
     position: relative;
     top: 4px;    
@@ -38,14 +38,13 @@
 * Default Styling
 */
 
-.circular-container {
-    
+.css-checkbox-container {
 
     background-color: #929292;  
     
 }
 
-.circular-container-checked {
+.css-checkbox-container-checked {
     
     background: #30a313;  
     

@@ -20,8 +20,8 @@ gulp.task('default', function() {
         .pipe(jshint.reporter('jshint-stylish'));  
         
           
-    gulp.src('src/css/*.css')
-        .pipe(concatCss("src/css/circular.css"))
-        .pipe(gulp.dest('dist/css'));    
+    gulp.src('./src/css/*.css')
+        .pipe(concatCss("css-checkbox.css"))
+        .pipe(gulp.dest('dist/css/'));    
 
 });
