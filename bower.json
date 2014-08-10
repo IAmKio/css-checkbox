@@ -1,12 +1,12 @@
 {
-  "name": "Circular",
-  "version": "0.1.0",
-  "homepage": "https://github.com/IAmKio/Circular",
+  "name": "CSS Checkbox",
+  "version": "0.2.0",
+  "homepage": "https://github.com/IAmKio/css-checkbox",
   "authors": [
-    "Kieran Goodar <kgoodary@gmail.com>"
+    "Kieran Goodary <kgoodary@gmail.com>"
   ],
   "description": "A Javascript library that converts checkboxes to stylable elements using CSS",
-  "main": "['/dist/css/circular.css','/dist/js/circular.js']",
+  "main": "['/dist/css/css-checkbox.css','/dist/js/css-checkbox.js']",
   "moduleType": [
     "amd"
   ],
