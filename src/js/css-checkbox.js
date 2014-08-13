@@ -58,9 +58,19 @@ CssCheckbox.transform = function(objs) {
 CssCheckbox.addListener = function(CssCheckboxId) {
     'use strict';
     
-    var thisIsChecked;
-    var thisCssCheckbox;
+    this.bindCheckboxChangeEvent(CssCheckboxId);
+    this.bindCheckboxClickEvent(CssCheckboxId);
 
+};
+
+
+
+CssCheckbox.bindCheckboxClickEvent = function(CssCheckboxId) {
+    'use strict';    
+    
+    var thisIsChecked;
+    var thisCssCheckbox;    
+    
     document
         .getElementById('css-checkbox-container-' + CssCheckboxId)
         .addEventListener('click', function() {
@@ -78,8 +88,37 @@ CssCheckbox.addListener = function(CssCheckboxId) {
                     .getElementById('css-checkbox-container-' + CssCheckboxId).className = 'css-checkbox-core ' + CssCheckbox.findCssOff(thisCssCheckbox) + ' ' + CssCheckbox.findCssOn(thisCssCheckbox);
             }
        
-    });
+    });    
+    
+};
 
+
+
+CssCheckbox.bindCheckboxChangeEvent = function(CssCheckboxId) {
+    'use strict';    
+    
+    var thisIsChecked;
+    var thisCssCheckbox;    
+    
+    document
+        .getElementById('css-checkbox-container-' + CssCheckboxId)
+        .onchange = function() {
+            
+            thisIsChecked = document.getElementsByClassName('css-checkbox-' + CssCheckboxId)[0].checked;
+            thisCssCheckbox = document.getElementsByClassName('css-checkbox-' + CssCheckboxId)[0];
+            
+            if (thisIsChecked) {
+                thisCssCheckbox.removeAttribute('checked');
+                document
+                    .getElementById('css-checkbox-container-' + CssCheckboxId).className = 'css-checkbox-core ' + CssCheckbox.findCssOff(thisCssCheckbox);                
+            } else {       
+                thisCssCheckbox.setAttribute('checked', 'checked');
+                document
+                    .getElementById('css-checkbox-container-' + CssCheckboxId).className = 'css-checkbox-core ' + CssCheckbox.findCssOff(thisCssCheckbox) + ' ' + CssCheckbox.findCssOn(thisCssCheckbox);
+            }
+       
+    };       
+    
 };
 
 
