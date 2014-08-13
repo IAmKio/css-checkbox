@@ -1,6 +1,6 @@
 {
   "name": "CSS Checkbox",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Javascript library that converts checkboxes to stylable elements using CSS!",
   "main": "index.js",
   "directories": {
